@@ -95,10 +95,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R         &kp T                                                &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F         &kp G        &kp ESCAPE               &kp EQUAL      &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V         &kp B        &kp TAB                  &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT KP_DIVIDE
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 ESCAPE  &lt 2 SPACE  &lt 4 LANG_HIRAGANA      &kp BACKSPACE  &lt 1 ENTER                             &kp DELETE
+&kp Q             &kp W         &kp E         &kp R         &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F         &kp G        &kp ESCAPE            &kp EQUAL      &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V         &kp B        &kp TAB               &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT KP_DIVIDE
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 ESCAPE  &lt 2 SPACE  &lt 4 LANGUAGE_1      &kp BACKSPACE  &lt 1 ENTER                             &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -124,10 +124,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R                  &to_layer_0 T                                                  &to_layer_0 Y    &to_layer_0 U  &kp RC(T)  &to_layer_0 O  &mo 5
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F                  &to_layer_0 G  &trans                             &kp LC(V)     &kp RC(RS(TAB))  &mkp MB1       &mkp MB3   &mkp MB2       &kp LC(TAB)
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V                  &to_layer_0 B  &trans                             &kp RC(C)     &to_layer_0 N    &mkp MB4       &kp RC(W)  &mkp MB5       &trans
-&trans         &trans         &trans         &lt_to_layer_0 6 LANGUAGE_2    &trans         &lt_to_layer_0 4 LANGUAGE_1        &trans         &trans                                                    &trans
+&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R                &to_layer_0 T                                              &to_layer_0 Y    &to_layer_0 U  &kp RC(T)  &to_layer_0 O  &mo 5
+&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F                &to_layer_0 G  &trans                           &kp LC(V)  &kp RC(RS(TAB))  &mkp MB1       &mkp MB3   &mkp MB2       &kp LC(TAB)
+&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V                &to_layer_0 B  &trans                           &kp RC(C)  &to_layer_0 N    &mkp MB4       &kp RC(W)  &mkp MB5       &trans
+&trans         &trans         &trans         &lt_to_layer_0 6 LANGUAGE_2  &trans         &lt_to_layer_0 4 LANGUAGE_1      &trans     &trans                                                    &trans
             >;
         };
 
